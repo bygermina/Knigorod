@@ -1,0 +1,81 @@
+
+@media all and (min-width:910px) { 
+              .menuPhoneVers  {display:none;}
+ }
+
+
+@media all and (min-width:470px) { 
+             .phoneIcon {display:none;}
+ }
+
+
+@media all and (max-width:1600px)
+              { 
+               .textContainer { margin-left:50px;}
+}
+
+@media all and (max-width:1550px)
+             {
+          .conteiner, .conteinerText   { max-width: 85vw;}
+}
+
+@media all and (max-width:1020px) 
+             {
+            div.headerBodyLogo img { width:180px;  }
+
+             ul.menuMain li a {margin: 0; font-size: 92%;}
+
+            .k1 , .k2 {width:100%; justify-content: space-between}
+
+            .k2 {flex-direction:row; margin-top: 20px ; margin-bottom: 20px ; }
+ }
+
+@media all and (max-width:910px)
+             { 
+               .menuHeaderBottomPanel,  .menuPhoneVers ul {display:none; }  
+
+              .k1 , .k2 {width:100%; justify-content: space-between}
+
+              .menuHeaderBottomPanel,  .menuPhoneVers ul {display:none; }  
+
+               .k2 {flex-direction:row; margin-top: 20px ; margin-bottom: 20px ;    justify-content: center; }
+
+                .headerBodyPhone {margin: 0px; }
+
+               .headerBodyPhone a:first-child {margin: 0px;}
+                           
+              .footer {flex-direction:column; }
+                              
+              .columnFooter24 {margin: 0 30px; }
+                             
+             .headerBodyContent, .productBlock1,  .text3Kolonki {flex-direction:column;   }
+                            
+              .textContainer { margin-left:0;}
+
+              .productBlock {margin: 30px 30px;}
+}
+
+@media all and (max-width:470px) { 
+               
+               div.headerBodyLogo img { width:120px; }
+             
+              .message p {margin:0;}
+
+              .avatar, .name {float:none;}
+
+              .triangle,  .headerBodyPhone,  .manReading  {display:none;}
+
+              .button {margin-top: 20px;}
+
+              .featureValue { margin-bottom: 14px;}
+
+              .book {box-shadow: none;}
+
+              .book-cover img {max-width:250px;}
+
+              .undertitle a:last-child {display:block;}
+
+              .conteinerText h1 {font-size:20px;}
+ 
+              .productBlock div div.button:first-child {font-size:11px;}
+}
