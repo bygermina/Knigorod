@@ -1,0 +1,59 @@
+.postform {margin-bottom: 35px;}
+
+.postform input {background: #1cb3b5;}
+
+.postform input:hover {background: #00aaad;}
+
+.postform form textarea{
+                             width:100%;
+                             height:100px;
+                             margin: 0 0 20px ;
+                              padding: 15px 50px 7px 20px  ;
+                              display: block;
+                               }
+
+.postform form div.headform {
+                           font-size:14pt;
+                           color:#8f6c72;
+                           padding-bottom:10px;
+                           }
+
+div.postform form div.starEmpty {  margin-bottom:16px;}
+
+
+.avatar{ 
+             border-radius:100px;
+             width:80px;
+              height:80px;
+              float:left;
+              margin-top:10px;
+                }
+
+.message {
+             position:relative;
+             clear:both;  }         
+
+.message p {
+                  margin: 5px 0 10px 100px;
+                  padding:10px;
+                  border:1px solid #eee;
+                  border-radius:5px;
+                  word-spacing:3px;
+                  line-height:22px;
+                  }
+
+.message p strong{ display:block;
+                         color:#428bca;
+                         border-bottom:1px solid #ddd;
+                          margin-bottom:10px;
+                           }
+
+.message p strong em { color:#333; }                     
+
+.message .triangle{ float:left;
+                        position:absolute;
+                        left:85px;
+                        top:25px;
+                        border-style: solid;
+                         border-width: 10px 15px 10px 0;
+                         border-color: transparent #eeeeee transparent transparent;
