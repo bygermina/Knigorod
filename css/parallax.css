@@ -1,0 +1,60 @@
+.parallax
+	{margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+	list-style: none;
+        }
+
+.paraWrapper
+	{width: 120%;
+         }
+
+.one {  height:365px;
+         }
+
+.paraWrapper	ul
+		{height: 100%;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		overflow-y:hidden;
+                 position: relative;  }
+
+.paraWrapper	li
+		{position: absolute; 
+                  width: 100%;
+		  height: 100%;
+                                                                                         
+                 left: 0;
+		//transition: all 0.7s cubic-bezier(.57,1.1,.55,-0.13);
+		}
+
+	#c1
+		{background: url(../images/cityscape/background-01.png) ;
+		}
+	#c2
+		{background: url(../images/cityscape/5layer5-01.png) ;
+		}
+	
+	#c4
+		{background: url(../images/cityscape/4layer4-01.png) ;
+		}
+	#c5
+		{background: url(../images/cityscape/3layer3-01.png) ;
+		}
+	#c6
+		{background: url(../images/cityscape/clouds-01.png) ;
+		}
+	
+	#c7
+		{background: url(../images/cityscape/2layer2-01.png);                       
+		}
+
+	#c8
+		{background: url(../images/cityscape/1layer111-01.png) ;                                             
+		  }
+            
+
+box-shadow: inset 0 0 5px rgba(0,0,0,0.2), inset 0 1px 2px; /*как вставить тень*/	
