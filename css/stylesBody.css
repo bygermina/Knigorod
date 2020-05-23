@@ -1,0 +1,230 @@
+
+h1 {font-size:35px;
+       font-weight: 700;
+       text-align: center;   }
+
+.breadCrumps {  font-size: 12px;
+                           text-align: center;  }
+
+.breadCrumps a  {color: #707070;
+                            font-size: 12px;
+                            text-decoration:none; }
+.breadCrumps a:hover  {color: #000;     }
+                           
+
+.breadCrumps span {color:#b9b8b8;
+                                  font-size: 12px; }
+
+.filterTop { background-color:#eee;
+                padding:10px ;
+                margin-top: 15px;
+                border-radius: 2px;}
+
+.whiteButton {background-color:#fff;
+                      font-size: 12px;
+                      font-weight: 700;
+                      text-transform: uppercase;
+                      border-radius: 2px;
+                      padding: 16px;
+                      margin-right: 10px;
+                      width: auto;
+                      display: inline-block;
+                     }
+
+div.whiteButton::after {content: url('../images/arrowDown.png')
+                     }
+
+.availability {margin: 5px 0; color: #5aab5d; text-align:right;}
+
+.productBlock {  display: inline-block;
+                       padding: 15px;
+                       min-height: 440px;
+                       margin: 30px 60px;
+                           }
+
+.starEmpty { display: inline-block;
+                     color: #c7c7c7;
+                    margin-right:10px;}
+
+.productTitle { margin: 5px;
+                       color: #707070;
+                       line-height: 120%;}
+
+.imgFrame {  position:relative;
+                     border: solid 1px;
+                     color:#e4e4e4;
+                     margin: auto;
+                     margin-top:63px;
+                     height:297px; width:210px;
+                     }   
+
+.imgProduct3dShade { position:absolute; 
+                                    left: -18px; 
+                                    bottom: -20px; 
+                                    z-index:2; 
+
+                                    background: 
+                                    url("../images/shade/left_top1-01.png") left top no-repeat,
+                                   url("../images/shade/right_bottom1-01.png") right bottom no-repeat, 
+                                   url("../images/shade/left_bottom1-01.png") left  bottom no-repeat, 
+
+                                   url("../images/shade/left1.png") repeat-y, 
+                                   url("../images/shade/bottom1.png") 0 100% repeat-x;
+                                  }
+
+.imgProduct3d {   position:absolute; 
+                            left: 0px; 
+                            bottom: 0px; 
+                            z-index:5; }
+
+.sizePict {height: 330px; }                   
+
+.sizePict:hover {
+                     -webkit-transform: scale(1.05);
+                     -ms-transform: scale(1.05);
+                      transform: scale(1.05);
+                       }
+
+.Product1  {height:300px; width:200px;       
+                  background: 
+                        url('../images/cover/Chistiyat_li_monstry_zuby1.jpg') no-repeat,
+
+                          url("../images/3dproduct/left_vertical-01.png") repeat-y;
+                          background-blend-mode: multiply; }
+
+.Shade1 {height:318px; width:217px;  }
+
+.Product2 {height:250px; width:250px;   
+                  background: 
+                         url('../images/cover/Balet1.jpg')  no-repeat,
+
+                          url("../images/3dproduct/left_vertical-01.png") repeat-y;
+                          background-blend-mode: multiply; }
+
+.Shade2 {height:268px; width:268px;  }
+
+.Product3 {height:350px; width:280px;   
+                  background: 
+                         url('../images/cover/odnagdy-v-derevne.jpg')  no-repeat,
+
+                          url("../images/3dproduct/left_vertical-01.png") repeat-y;
+                          background-blend-mode: multiply;}
+ 
+.Shade3 {height:368px; width:298px;  }
+
+.Product4 {height:250px; width:200px;   
+                  background: 
+                         url('../images/cover/mifys.jpg')  no-repeat,
+
+                          url("../images/3dproduct/left_vertical-01.png") repeat-y;
+                          background-blend-mode: multiply; }
+  
+.Shade4 {height:268px; width:218px;  }
+
+.button {position: relative;
+              text-decoration: none;
+              font-size: 12px;
+              font-weight: bold;
+              margin: 2px 0;
+               cursor: pointer;
+               text-transform: uppercase;
+               background: #ff9140;
+               color: #fff;
+               border-radius: 22px;
+               text-align:center;
+               display: inline-block;
+               padding: 15px 22px;
+               border: none;
+               }
+                     
+.button:hover {  background: #ff6c00; }
+
+.subbutton {   padding: 12px 12px;
+                       margin-left: 5px;
+                       background: #f6f6f6;
+                        color: #a9a9a9;
+                       font-size:19px;
+                       color:#2323237d;  }
+
+.subbutton:hover { background: #f9f9f9;
+                               color: #ff6c00; }            
+
+.left {text-align:left;}
+
+.conteinerText {max-width: 1200px; margin: 0 auto; }
+
+.text p  {margin: 25px 0px; 
+             text-align: justify; padding-bottom: 0px;
+             font-size: 14px;
+              color:#555;
+              text-indent: 5px;
+              line-height:20px;}
+
+.text  li  {
+             text-align: justify; padding-bottom: 0px;
+             font-size: 14px;
+              color:#555;
+              text-indent: 5px;
+              line-height:20px;}
+
+.product {font-size:26px;}
+
+.undertitle {padding: 12px 0px;}
+
+.starFull {color: #ed5f2b;}
+
+.productInformation {display: block;
+                                  padding: 15px 20px ;
+                                  margin-bottom: 10px;
+                                  width: auto;
+                                  border: solid 2px #b8e9ea; }
+
+.name { font-size: 12px;
+               font-weight: 700;
+               width:165px; float: left;
+              }
+
+.featureValue {margin: 3px 0px;
+                        font-size: 12px;}
+
+.block1 {margin: 12px 0px;}
+
+.block1 a {text-decoration:none; }
+
+.avilableProduct {
+                 padding: 3px 7px 3px 3px;
+                 background: #5aab5d;
+                color: white;
+                 font-size: 12px;
+                 border-radius: 11px;
+                }
+
+.price {font-size: 32px;
+           line-height: 26px;
+           font-weight: 700;
+            margin:10px 0px;}
+
+.blockPrice .button {margin-right: 10px;
+                               margin-bottom: 2px;
+                              padding: 0px 70px;
+                              height: 54px;
+                              line-height: 54px;
+                              font-size: 14px;
+                              border-radius: 35px; }
+
+.blockPrice   div.button.subbutton { font-size: 22px;
+                                                  padding: 0px 20px; }
+                                                    
+.productBlock1 {display:flex; justify-content: flex-start;}                           
+                              
+.textContainer {margin: 30px 0 30px  200px; width:100%;}           
+
+div textarea {box-sizing: border-box;}               
+
+.text3Kolonki {display:flex; margin-right:-50px;}
+
+.kolonka {flex-basis:100px; flex-grow:1;  margin-right:50px; }
+
+.kolonka p {display:block;}
+
+.kolonka img {float:none; width: 120px; height:120px; border-radius: 100px;}
